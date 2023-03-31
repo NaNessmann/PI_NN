@@ -1,0 +1,13 @@
+.row{
+    padding: 20px;
+}
+div{
+    background-color: #e6e7e8;
+    text-align: center;
+}
+
+/*etiquta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 30%;
+}
