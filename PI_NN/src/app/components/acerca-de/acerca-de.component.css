@@ -2,8 +2,18 @@
     padding: 20px;
 }
 div{
-    background-color: #e6e7e8;
+    background-color: #fefefe;
     text-align: center;
+}
+
+/*estilo de la foto de perfil*/
+@media (min-width: 575px) {
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        box-shadow: 3px 3px 3px grey ;
+        left: 3%;
+    }
 }
 
 /*etiquta nombre*/
