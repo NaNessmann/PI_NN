@@ -1,8 +1,17 @@
-div{
+.row{
+    width: 100%;
+ }
+ div{
     background-color: #fefefe;
+    
 }
 
 app-social{
     float: right;
     margin-top: 25px;
+}
+
+app-banner{
+    margin-left: 10px;
+    margin-right: 10px;
 }

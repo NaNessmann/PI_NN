@@ -16,6 +16,16 @@ div{
     }
 }
 
+@media (max-width: 575px) {
+    #fotodeperfil{
+        position: sticky;
+        width: 100%;
+        box-shadow: 3px 3px 3px grey ;
+        left: 3%;
+        right: 3%;
+    }
+}
+
 /*etiquta nombre*/
 #nombre{
     font-weight: bold;
