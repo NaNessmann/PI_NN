@@ -1,3 +1,35 @@
-img{
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#logoAP{
     width: 150px;
+}
+img{
+    width: 40px;
+}
+.btn{
+    margin-left: 0.3em;
+    border-width: 0.15em;
+}
+
+/* ...Para la vista de celular ...*/
+
+
+@media (max-width: 575px) {
+    .container{
+        flex-direction: column;
+    }
+    .redes{
+        display: flex;
+        align-items: center;
+    }
+}
+@media (min-width: 575px) {
+    .redes{
+        margin-right: .05em;
+    }
 }
